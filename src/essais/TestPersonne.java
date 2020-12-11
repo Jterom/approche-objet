@@ -12,5 +12,16 @@ public class TestPersonne {
 
         System.out.println(test1.prenom+" "+test1.nom+" vit a : "+test1.adresse.numeroRue+" "+test1.adresse.libelleRue+", "+test1.adresse.ville+", "+test1.adresse.codePostal);
         System.out.println(test2.prenom+" "+test2.nom+" vit a : "+test2.adresse.numeroRue+" "+test2.adresse.libelleRue+", "+test2.adresse.ville+", "+test2.adresse.codePostal);
+
+        System.out.println(test1.GetAdresse());
+        System.out.println(test1.GetNom());
+        System.out.println(test1.GetPrenom());
+        test1.ModifAdresse(test21);
+        test1.Majuscule();
+        test1.ModifNom("Michel");
+        test1.ModifPrenom("Gorge");
+        System.out.println(test1.GetAdresse());
+        System.out.println(test1.GetNom());
+        System.out.println(test1.GetPrenom());
     }
 }
